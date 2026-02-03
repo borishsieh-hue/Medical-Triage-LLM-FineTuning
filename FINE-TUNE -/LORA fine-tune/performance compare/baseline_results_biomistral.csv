@@ -1,0 +1,201 @@
+symptom_prompt,baseline_output,expected_completion
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I have trouble breathing and my face and chest are swollen. My eyes are itchy and I have a dry cough.","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, lip swelling, abnormal appearing skin, peripheral edema, itchiness of eye, allergic reaction, itching of skin","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: abnormal appearing skin, peripheral edema, allergic reaction","Disease: Allergic reaction Department: Dermatology
+Department: Dermatology","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, lip swelling, abnormal appearing skin, peripheral edema, itchiness of eye, allergic reaction, fluid retention","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: lip swelling, abnormal appearing skin, swollen eye, skin rash","Disease: Angioedema Department: Emergency Department
+Department: Emergency Department","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: abnormal appearing skin, fluid retention, swollen eye","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, lip swelling, itchiness of eye","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, skin swelling, lip swelling, abnormal appearing skin, itchiness of eye, fluid retention","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, skin swelling, abnormal appearing skin, peripheral edema, itchiness of eye, fluid retention, itching of skin","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, lip swelling, abnormal appearing skin, fluid retention","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: skin swelling, abnormal appearing skin, peripheral edema, fluid retention, swollen eye, itching of skin","Disease: Lymphatic filariasis Department: Dermatology
+Department: Dermatology","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: lip swelling, abnormal appearing skin, peripheral edema, itchiness of eye, fluid retention, swollen eye, itching of skin, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, abnormal appearing skin, peripheral edema, itchiness of eye, allergic reaction, fluid retention, swollen eye","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: peripheral edema, swollen eye, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, skin swelling, abnormal appearing skin, peripheral edema, fluid retention, swollen eye","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I have a stuffy nose and a blocked nose. I also have stiffness and chest pain sometimes at night. I can't taste or smell anything.","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: peripheral edema, itchiness of eye, allergic reaction, fluid retention, itching of skin, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: skin swelling, abnormal appearing skin, peripheral edema, itchiness of eye, fluid retention","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, lip swelling, abnormal appearing skin, peripheral edema, fluid retention, swollen eye","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, skin swelling, abnormal appearing skin, peripheral edema, itchiness of eye, allergic reaction, fluid retention, itching of skin","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, peripheral edema, allergic reaction, itching of skin, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, itchiness of eye, fluid retention, swollen eye, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, lip swelling, abnormal appearing skin, itchiness of eye, allergic reaction, swollen eye, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, abnormal appearing skin, peripheral edema, itchiness of eye, allergic reaction","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, lip swelling, fluid retention, itching of skin, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: skin swelling, itching of skin, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: lip swelling, peripheral edema, fluid retention, itching of skin, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: skin swelling, allergic reaction, fluid retention, swollen eye, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: skin swelling, lip swelling, abnormal appearing skin, allergic reaction, itching of skin, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: skin swelling, abnormal appearing skin, peripheral edema, itchiness of eye, allergic reaction, fluid retention, itching of skin","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: lip swelling, peripheral edema, itchiness of eye, allergic reaction, swollen eye","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: itchiness of eye, allergic reaction, fluid retention, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: skin swelling, lip swelling, abnormal appearing skin, itchiness of eye, itching of skin, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: skin swelling, abnormal appearing skin, peripheral edema, allergic reaction, itching of skin, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, skin swelling, abnormal appearing skin, peripheral edema, itchiness of eye, allergic reaction, fluid retention, swollen eye, itching of skin","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, lip swelling, peripheral edema, swollen eye, itching of skin","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: skin swelling, lip swelling, fluid retention","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: peripheral edema, itchiness of eye, fluid retention, swollen eye, itching of skin","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: itchiness of eye, allergic reaction, swollen eye, itching of skin, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, lip swelling, peripheral edema, fluid retention, swollen eye, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: skin swelling, abnormal appearing skin, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, skin swelling, lip swelling, abnormal appearing skin, peripheral edema, itchiness of eye, allergic reaction, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, skin swelling, lip swelling, peripheral edema, fluid retention, swollen eye, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, skin swelling, lip swelling, peripheral edema, itchiness of eye, allergic reaction, itching of skin, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: lip swelling, abnormal appearing skin, peripheral edema, itchiness of eye, allergic reaction, fluid retention, swollen eye, itching of skin, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, abnormal appearing skin, fluid retention, swollen eye","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: skin swelling, lip swelling, peripheral edema","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, lip swelling, itchiness of eye, allergic reaction, swollen eye","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: skin swelling, lip swelling, abnormal appearing skin, swollen eye, itching of skin, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"
+"Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, lip swelling, abnormal appearing skin, fluid retention, swollen eye, skin rash","Disease: Unknown
+Department: Unknown","Disease: allergy
+Department: dermatology /"

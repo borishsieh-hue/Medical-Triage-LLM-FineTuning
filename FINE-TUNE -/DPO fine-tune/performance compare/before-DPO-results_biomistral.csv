@@ -1,0 +1,501 @@
+symptom_prompt,tune_output,expected_completion
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: retention of urine, suprapubic pain, frequent urination, lower abdominal pain, blood in urine, back pain, side pain, fever","Disease: urinary tract infection
+Department: Internal Medicine","Disease: urinary tract infection
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: lip swelling, abnormal appearing skin, swollen eye, skin rash","Disease: allergy
+Department: dermatology / allergy / immunology","Disease: allergy
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: shortness of breath, cough, nasal congestion, vomiting, wheezing, fever, difficulty breathing, chills, coryza","Disease: pneumonia
+Department: Pulmonology / Respiratory Medicine","Disease: pneumonia
+Department: Pulmonology / Respiratory"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The individual has been experiencing I can't seem to get warm. My head hurts and I feel like I have a fever for several days.","Disease: common cold
+Department: Internal Medicine / General Practice","Disease: common cold
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The patient experiences I've been feeling really sick and my neck feels swollen. Also notes no other major issues.","Disease: common cold
+Department: Internal Medicine / General Practice","Disease: common cold
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The person presents with my muscles are weak. My joints are swollen over the past few days.","Disease: arthritis
+Department: Orthopedics / Rheumatology","Disease: arthritis
+Department: Orthopedics / Rheumatology"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: This patient presents with a headache. The muscle pain is like a constant ache that is worse when I try to use the affected muscles. I also have small red spots developing on my face, arms, and I have been experiencing muscle pain for several days.","Disease: dengue
+Department: Infectious / Tropical Medicine","Disease: dengue
+Department: Infectious / Tropical Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: sharp chest pain, sore throat, nasal congestion, fever, coryza","Disease: pneumonia
+Department: Pulmonology / Respiratory Medicine","Disease: pneumonia
+Department: Pulmonology / Respiratory"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The patient has I'm always thirsty and I'm always getting lost. I can't see very well anymore for a while.","Disease: diabetes
+Department: Internal Medicine / Endocrinology","Disease: diabetes
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I have a lot of heartburn and acid reflux. I also feel sick after eating and sometimes throw up.","Disease: gastroesophageal reflux disease
+Department: Internal Medicine / Gastroenterology / Digestive System / Infectious / Tropical Medicine / Internal Medicine and Pediatrics / General Surgery / Surgery / Internal Medicine / Pediatrics / Obstetrics and Gynecology / Surgery / Internal Medicine / Pediatrics / Obstetrics and Gynecology / Internal Medicine / Pediatrics / Obstetrics and Gynecology / Internal Medicine / Pediatrics / Obstetrics and Gynecology / Internal Medicine / Pediatrics / Obstetrics and Gynecology / Internal Medicine / Pediatrics / Obstetrics and Gynecology / Internal Medicine / Pediatrics / Obstetrics and Gynecology / Internal Medicine / Pediatrics / Obstetrics and Gynecology / Internal Medicine / Pediatrics / Ob","Disease: gastroesophageal reflux disease
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: shortness of breath, dizziness, vomiting, abnormal appearing skin, allergic reaction, itching of skin, skin rash","Disease: drug reaction
+Department: Dermatology / Allergy","Disease: drug reaction
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: irregular appearing scalp, skin moles, joint pain, itching of skin, skin rash","Disease: psoriasis
+Department: Dermatology / Allergy / Immunology","Disease: psoriasis
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: skin growth, itchy scalp, skin rash","Disease: psoriasis
+Department: Dermatology / Allergy / Immunology / Dermatopathology / Dermatology / Allergy / Immunology / Dermatopathology / Dermatology / Allergy / Immunology / Dermatopathology / Dermatology / Allergy / Immunology / Dermatopathology / Dermatology / Allergy / Immunology / Dermatopathology / Dermatology / Allergy / Immunology / Dermatopathology / Dermatology / Allergy / Immunology / Dermatopathology / Dermatology / Allergy / Immunology / Dermatopathology / Dermatology / Allergy / Immunology / Dermatopathology / Dermatology / Allergy / Immunology / Dermatopathology","Disease: psoriasis
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I have a burning pain in my stomach that comes and goes. It is worse when I eat certain foods, like spicy or acidic food. I also get loose stools sometimes.","Disease: peptic ulcer disease
+Department: Internal Medicine / Infectious / Tropical Medicine","Disease: peptic ulcer disease
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The individual describes intermittent which has been accompanied with a rash that appears to be growing worse over time. There are also certain areas of skin that are different colours from the rest over the past few days.","Disease: fungal infection
+Department: Dermatology / Allergy","Disease: fungal infection
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I have a burning feeling in my stomach that is worse when I lie down. I also have pain after eating certain foods, like spicy or acidic foods. Sometimes I have loose stools after eating these foods.","Disease: peptic ulcer disease
+Department: Internal Medicine / Infectious / Tropical Medicine","Disease: peptic ulcer disease
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, skin swelling, skin lesion, mouth ulcer, fever, itching of skin, sore in nose","Disease: impetigo
+Department: Dermatology / Allergy","Disease: impetigo
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: weakness_in_limbs, neck_pain, dizziness, loss_of_balance","Disease: cervical spondylosis
+Department: Orthopedics / Rheumatology / Neurology / Physical Medicine and Rehabilitation / Surgery / Internal Medicine / Pediatrics / Family Medicine / General Practice / Psychiatry / Other","Disease: cervical spondylosis
+Department: Orthopedics / Rheumatology"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The patient presents with I have been having back pain over the past few days.","Disease: cervical spondylosis
+Department: Orthopedics / Rheumatology / Neurology / Physical Medicine and Rehabilitation / Surgery / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine and Pediatrics / Family Medicine / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine / Pediatrics / In","Disease: cervical spondylosis
+Department: Orthopedics / Rheumatology"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: shortness of breath, sharp chest pain, nasal congestion, wheezing, difficulty breathing, chills, coryza","Disease: pneumonia
+Department: Pulmonology / Respiratory Medicine","Disease: pneumonia
+Department: Pulmonology / Respiratory"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I have red spots on my arms and legs that are itchy and inflamed. I have been feeling sick to my stomach and have a constant urge to vomit. I also have a mild fever.","Disease: dengue
+Department: Infectious / Tropical Medicine","Disease: dengue
+Department: Infectious / Tropical Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: skin swelling, skin moles, itching of skin, skin rash","Disease: psoriasis
+Department: Dermatology / Allergy / Immunology","Disease: psoriasis
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The patient presents with neck, I have a fever and a chills for a while.","Disease: dengue
+Department: Infectious / Tropical Medicine","Disease: dengue
+Department: Infectious / Tropical Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: vomiting, nausea, allergic reaction, skin rash","Disease: drug reaction
+Department: Dermatology / Allergy / Immunology","Disease: drug reaction
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, nasal congestion, skin swelling, abnormal appearing skin, mouth ulcer, fever, skin rash, sore in nose","Disease: impetigo
+Department: Dermatology / Allergy","Disease: impetigo
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: sharp chest pain, sore throat, vomiting, weakness","Disease: pneumonia
+Department: Pulmonology / Respiratory Medicine","Disease: pneumonia
+Department: Pulmonology / Respiratory"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: skin growth, skin moles, itching of skin, skin dryness, peeling, scaliness, or roughness","Disease: psoriasis
+Department: Dermatology / Allergy / Immunology","Disease: psoriasis
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: shortness of breath, sharp chest pain, vomiting, wheezing, weakness, difficulty breathing, chills, coryza","Disease: pneumonia
+Department: Pulmonology / Respiratory Medicine","Disease: pneumonia
+Department: Pulmonology / Respiratory"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: This patient has I have abdominal pain or discomfort that is worse when I eat or drink. I have a loss of appetite.","Disease: peptic ulcer disease
+Department: Internal Medicine / Infectious / Tropical Medicine","Disease: peptic ulcer disease
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The patient experiences I have small red bumps on my arms. Also notes no other major issues.","Disease: chicken pox
+Department: Infectious / Tropical Medicine","Disease: chicken pox
+Department: Infectious / Tropical Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I have a metallic taste in my mouth, and also have a sense of change of taste and smell. Sometimes get very unbearable joint pain and muscle pain","Disease: gastroesophageal reflux disease
+Department: Internal Medicine / Gastroenterology / Digestive System / Infectious / Tropical Medicine / Internal Medicine and Pediatrics / General Surgery / Surgery / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine and Pediatrics / General Surgery / Surgery / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine and Pediatrics / General Surgery / Surgery / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine and Pediatrics / General Surgery / Surgery / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine and Pediatrics / General Surgery / Surgery / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine and Pediatrics / General Surgery /","Disease: drug reaction
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: abnormal appearing skin, skin lesion, skin growth, skin moles, joint pain, itching of skin, skin rash","Disease: psoriasis
+Department: Dermatology / Allergy","Disease: psoriasis
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I've been feeling really tired lately. I've also been losing weight, and I'm always thirsty.","Disease: jaundice
+Department: Internal Medicine / Infectious / Tropical Medicine","Disease: diabetes
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, skin swelling, skin rash, sore in nose","Disease: impetigo
+Department: Dermatology / Allergy","Disease: impetigo
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: skin swelling, skin lesion, itchy scalp","Disease: psoriasis
+Department: Dermatology / Allergy / Immunology","Disease: psoriasis
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: This patient has having chest pain accompanied by I've been having a headache that feels like a sharp pain in my forehead over the past few days.","Disease: hypertension
+Department: Internal Medicine / General Medicine","Disease: hypertension
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: suprapubic pain, nausea, painful urination, frequent urination, lower abdominal pain, back pain, fever","Disease: urinary tract infection
+Department: Internal Medicine / Infectious / Tropical Medicine","Disease: urinary tract infection
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: skin swelling, abnormal appearing skin, skin lesion, irregular appearing scalp, itching of skin, itchy scalp","Disease: psoriasis
+Department: Dermatology / Allergy / Immunology","Disease: psoriasis
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: suprapubic pain, lower abdominal pain, blood in urine, back pain","Disease: urinary tract infection
+Department: Internal Medicine / Infectious / Tropical Medicine","Disease: urinary tract infection
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: abnormal appearing skin, peripheral edema, itchiness of eye, allergic reaction, skin rash","Disease: allergy
+Department: dermatology / allergy / immunology","Disease: allergy
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: shortness of breath, sharp chest pain, sore throat, cough, nasal congestion, vomiting, wheezing, weakness, fever","Disease: pneumonia
+Department: Pulmonology / Respiratory Medicine","Disease: pneumonia
+Department: Pulmonology / Respiratory"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The patient complains of headaches for the past few days. I also have a mild fever, I have been experiencing severe joint pain and a chills over the past few days.","Disease: dengue
+Department: Infectious / Tropical Medicine","Disease: dengue
+Department: Infectious / Tropical Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I've been experiencing a lot of itching, which has been accompanied with a rash that appears to be growing worse over time. There are also certain areas of skin that are different colours from the rest, and I've spotted several lumps that resemble little nodes.","Disease: fungal infection
+Department: Dermatology / Allergy","Disease: fungal infection
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The individual reports I've been sneezing a lot accompanied by my nose is running. I'm also feeling really tired for several days.","Disease: common cold
+Department: Internal Medicine / General Practice","Disease: common cold
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: skin swelling, skin lesion, mouth ulcer, itching of skin","Disease: impetigo
+Department: Dermatology / Allergy","Disease: impetigo
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: This patient has been experiencing I've been vomiting and constipation for a while.","Disease: typhoid
+Department: Infectious / Tropical Medicine","Disease: typhoid
+Department: Infectious / Tropical Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: suprapubic pain, nausea, painful urination, frequent urination, lower abdominal pain, blood in urine, back pain, side pain, fever","Disease: urinary tract infection
+Department: Internal Medicine","Disease: urinary tract infection
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I've been having trouble seeing things clearly, and it seems to be getting worse. I'm also really tired all the time, and I sometimes feel lightheaded and dizzy.","Disease: diabetes
+Department: Internal Medicine / Endocrinology","Disease: diabetes
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: shortness of breath, wheezing, fever, difficulty breathing, chills","Disease: pneumonia
+Department: Pulmonology / Respiratory Medicine","Disease: pneumonia
+Department: Pulmonology / Respiratory"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: irregular appearing scalp, itching of skin","Disease: psoriasis
+Department: Dermatology / Allergy / Immunology","Disease: psoriasis
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I have small dents in my nails and they are often inflamed and tender to the touch. I also have minor rashes on my arms.","Disease: psoriasis
+Department: Dermatology / Allergy / Immunology","Disease: psoriasis
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: This patient describes worsening have been throwing up. My head hurts really bad for several days.","Disease: dengue
+Department: Infectious / Tropical Medicine","Disease: dengue
+Department: Infectious / Tropical Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I was driving home from work and suddenly felt a headache, chest discomfort, and dizziness. I've been having trouble concentrating and focusing while driving since then.","Disease: hypertension
+Department: Internal Medicine / General Medicine","Disease: hypertension
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: skin swelling, skin lesion, fever, sore in nose","Disease: impetigo
+Department: Dermatology / Allergy","Disease: impetigo
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: shortness of breath, sharp chest pain, sore throat, vomiting, wheezing, chills","Disease: pneumonia
+Department: Pulmonology / Respiratory Medicine","Disease: pneumonia
+Department: Pulmonology / Respiratory"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The individual describes notable I've been feeling really sick lately. My nose is running like crazy.","Disease: common cold
+Department: Internal Medicine / General Practice","Disease: common cold
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: This patient describes severe back pain recently.","Disease: cervical spondylosis
+Department: Orthopedics / Rheumatology / Neurology / Physical Medicine and Rehabilitation / Surgery / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine / Pediatrics / Infectious / Tropical Medicine / Internal Medicine","Disease: cervical spondylosis
+Department: Orthopedics / Rheumatology"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: vomiting, headache, skin rash","Disease: drug reaction
+Department: Dermatology / Allergy / Immunology","Disease: drug reaction
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The individual has I've been having chills. Also has no other major issues.","Disease: malaria
+Department: Infectious / Tropical Medicine","Disease: malaria
+Department: Infectious / Tropical Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: shortness of breath, sharp chest pain, cough, wheezing, fever, chills, coryza","Disease: pneumonia
+Department: Pulmonology / Respiratory Medicine","Disease: pneumonia
+Department: Pulmonology / Respiratory"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: This patient presents with unsteady on my feet, but today I've also been feeling dizzy and chest pain for a few days recently.","Disease: hypertension
+Department: Internal Medicine / General Medicine","Disease: hypertension
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The patient has been experiencing experience dizziness. My neck hurts and legs. I've also had problems staying balanced for several days.","Disease: cervical spondylosis
+Department: Orthopedics / Rheumatology / Neurology / Physical Medicine and Rehabilitation / Surgery / Internal Medicine / Pediatrics / Family Medicine / General Practice / Geriatrics / Psychiatry / Other","Disease: cervical spondylosis
+Department: Orthopedics / Rheumatology"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: lip swelling, peripheral edema, itchiness of eye, fluid retention","Disease: allergy
+Department: dermatology / allergy","Disease: allergy
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The person presents with I've been feeling really sick lately. I've been having a lot of nausea accompanied by I've lost my appetite. I've also been feeling really weak and a vomiting over the past few days.","Disease: typhoid
+Department: Infectious / Tropical Medicine","Disease: typhoid
+Department: Infectious / Tropical Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, skin swelling, abnormal appearing skin, peripheral edema, allergic reaction, swollen eye, itching of skin","Disease: allergy
+Department: dermatology / allergy / immunology","Disease: allergy
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: peripheral edema, itchiness of eye, allergic reaction, swollen eye, itching of skin","Disease: allergy
+Department: dermatology / allergy / immunology","Disease: allergy
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: lip swelling, abnormal appearing skin, peripheral edema, allergic reaction, fluid retention, itching of skin","Disease: allergy
+Department: dermatology / allergy / immunology","Disease: allergy
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I have been experiencing a lot of itching and redness on my skin. I have also noticed that my nails are becoming brittle and have started to develop dents. I am worried that this could be a sign of something more serious.","Disease: psoriasis
+Department: Dermatology / Allergy / Immunology","Disease: psoriasis
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: lip swelling, peripheral edema, fluid retention, itching of skin, skin rash","Disease: allergy
+Department: dermatology / allergy","Disease: allergy
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I'm having trouble concentrating and my emotions are all over the place. My mind feels cloudy and foggy at times, making it hard to do even simple tasks.","Disease: diabetes
+Department: Internal Medicine / Endocrinology","Disease: diabetes
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The person presents with I have really bad acid reflux.","Disease: gastroesophageal reflux disease
+Department: Internal Medicine / Gastroenterology / Digestive System / Infectious / Tropical Medicine / Internal Medicine and Pediatrics / Family Medicine / General Practice / Primary Care / Internal Medicine / Infectious / Tropical Medicine / Internal Medicine and Pediatrics / Family Medicine / General Practice / Primary Care / Internal Medicine / Infectious / Tropical Medicine / Internal Medicine and Pediatrics / Family Medicine / General Practice / Primary Care / Internal Medicine / Infectious / Tropical Medicine / Internal Medicine and Pediatrics / Family Medicine / General Practice / Primary Care / Internal Medicine / Infectious / Tropical Medicine / Internal Medicine and Pediatrics / Family Medicine / General Practice / Primary Care / Internal Medicine / Infectious / Tropical Medicine / Internal Medicine and Pediatrics / Family Medicine / General Practice / Primary Care / Internal Medicine / Infect","Disease: gastroesophageal reflux disease
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I'm always thirsty and hungry, and I have to pee all the time. I've also lost a lot of weight recently, and I'm always tired.","Disease: diabetes
+Department: Internal Medicine / Endocrinology","Disease: diabetes
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, lip swelling, peripheral edema, fluid retention","Disease: allergy
+Department: dermatology / allergy","Disease: allergy
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: shortness of breath, sharp chest pain, vomiting, fever, difficulty breathing, coryza","Disease: pneumonia
+Department: Pulmonology / Respiratory Medicine","Disease: pneumonia
+Department: Pulmonology / Respiratory"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, skin swelling, itchiness of eye, fluid retention","Disease: allergy
+Department: dermatology / allergy / immunology","Disease: allergy
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, nasal congestion, abnormal appearing skin, mouth ulcer, itching of skin","Disease: impetigo
+Department: Dermatology / Allergy","Disease: impetigo
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The individual describes intermittent tired. I think I might have anaemia recently.","Disease: peptic ulcer disease
+Department: Internal Medicine / General Medicine","Disease: peptic ulcer disease
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The person reports a chills together with I have been experiencing severe joint pain and headaches for the past few days. I also have a mild fever.","Disease: dengue
+Department: Infectious / Tropical Medicine","Disease: dengue
+Department: Infectious / Tropical Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The patient has been experiencing a cough and family_history.","Disease: bronchial asthma
+Department: Pulmonology / Respiratory Medicine","Disease: bronchial asthma
+Department: Pulmonology / Respiratory"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The individual presents with often get a sensation of the food getting stuck in my throat. I have constant belching, bloating. There is a persitent sour taste in my mouth, and I have difficulty swallowing food for several days.","Disease: peptic ulcer disease
+Department: Internal Medicine / Gastroenterology / Endoscopy","Disease: peptic ulcer disease
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The patient complains of lightheadedness. It's been hard to concentrate at work, chest pain and I've been having headaches for a while.","Disease: hypertension
+Department: Internal Medicine / General Medicine","Disease: hypertension
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: This patient describes notable I have been dizzy.","Disease: cervical spondylosis
+Department: Orthopedics / Rheumatology / Physical Medicine and Rehabilitation","Disease: cervical spondylosis
+Department: Orthopedics / Rheumatology"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I've been feeling really cold and tired lately. I've been coughing a lot, and it hurts when I breathe. My heart is beating really fast, and when I cough, I cough up phlegm that's kind of a rusty color.","Disease: pneumonia
+Department: Pulmonology / Respiratory Medicine","Disease: pneumonia
+Department: Pulmonology / Respiratory"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I've been feeling really tired and weak, and I can't seem to get enough sleep. I've also noticed some small red spots on my arms and legs.","Disease: dengue
+Department: Infectious / Tropical Medicine","Disease: dengue
+Department: Infectious / Tropical Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I have a rash on my skin that is red, itchy, and scaly. It is worse in the winter months when the air is dry. I have to moisturize more frequently and use humidifiers to keep my skin hydrated.","Disease: psoriasis
+Department: Dermatology / Allergy / Immunology / Dermatopathology / Dermatology / Allergy / Immunology / Dermatopathology / Dermatology / Allergy / Immunology / Dermatopathology / Dermatology / Allergy / Immunology / Dermatopathology / Dermatology / Allergy / Immunology / Dermatopathology / Dermatology / Allergy / Immunology / Dermatopathology / Dermatology / Allergy / Immunology / Dermatopathology / Dermatology / Allergy / Immunology / Dermatopathology / Dermatology / Allergy / Immunology / Dermatopathology / Dermatology / Allergy / Immunology / Dermatopathology","Disease: psoriasis
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The individual has been experiencing my skin has turned yellow. I've also been having stomach pain and sick to my stomach. I've also been losing weight for several days.","Disease: jaundice
+Department: Internal Medicine / Infectious / Tropical Medicine","Disease: jaundice
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I have a stiff neck and eye issues, and I've been hungry all the time.","Disease: migraine
+Department: Neurology / Headache Medicine","Disease: migraine
+Department: Neurology"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: painful urination, blood in urine, side pain","Disease: urinary tract infection
+Department: Internal Medicine / Infectious / Tropical Medicine","Disease: urinary tract infection
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: abnormal appearing skin, joint pain, skin dryness, peeling, scaliness, or roughness, skin rash","Disease: psoriasis
+Department: Dermatology / Allergy / Immunology","Disease: psoriasis
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The person reports rashes and I have a lot of skin irritations. Also has similar symptoms earlier this week.","Disease: fungal infection
+Department: Dermatology / Allergy","Disease: diabetes
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: cough, skin swelling, abnormal appearing skin, fluid retention, swollen eye, skin rash","Disease: allergy
+Department: dermatology / allergy","Disease: allergy
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: vomiting, headache, nausea, symptoms of the face","Disease: migraine
+Department: Neurology / Headache Medicine","Disease: migraine
+Department: Neurology"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The person presents with sometimes I get little pimples that look like nodules, I've been having a lot of itching on my skin and sometimes it turns into a rash. There are also some weird patches of skin that are a different color than the rest of me.","Disease: fungal infection
+Department: Dermatology / Allergy / Immunology","Disease: fungal infection
+Department: Dermatology / Allergy"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: This patient presents with I've been feeling really sick lately. I've been having a lot of nausea and I've lost my appetite. I've also been feeling really weak recently.","Disease: typhoid
+Department: Infectious / Tropical Medicine","Disease: typhoid
+Department: Infectious / Tropical Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I have varicose veins on my legs. They are swollen and protruding from my skin. They are painful and noticeable.","Disease: varicose veins
+Department: Surgery / Vascular Surgery","Disease: varicose veins
+Department: Surgery / Vascular"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: shortness of breath, sore throat, vomiting, wheezing, weakness, difficulty breathing, coryza","Disease: pneumonia
+Department: Pulmonology / Respiratory Medicine","Disease: pneumonia
+Department: Pulmonology / Respiratory"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: sharp chest pain, cough, vomiting, chills, coryza","Disease: pneumonia
+Department: Pulmonology / Respiratory Medicine","Disease: pneumonia
+Department: Pulmonology / Respiratory"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: I've been having trouble seeing things clearly, and it seems to be getting worse. I'm also always tired and worn out, and I get dizzy and lightheaded a lot.","Disease: diabetes
+Department: Internal Medicine / Endocrinology","Disease: diabetes
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: The individual complains of I have trouble breathing when I exercise. I sweat a lot. Also notes similar symptoms earlier this week.","Disease: diabetes
+Department: Internal Medicine / Endocrinology","Disease: diabetes
+Department: Internal Medicine"
+"### Instruction:
+Given the following symptoms, identify the most likely disease and medical department.
+Symptoms: vomiting, abnormal appearing skin, skin rash","Disease: drug reaction
+Department: Dermatology / Allergy / Immunology","Disease: drug reaction
+Department: Dermatology / Allergy"
