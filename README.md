@@ -58,9 +58,9 @@ example queries.
 ## 📁 Repository Structure
 
 ```
-├── 01_sft_lora/       # Stage 1: LoRA supervised fine-tuning
-├── 02_dpo/            # Stage 2: DPO alignment
-└── 03_database/       # Backend schema for storing predictions & clinician review
+├── Lora_fune_tune/       # Stage 1: LoRA supervised fine-tuning
+├── DPO_finetune/         # Stage 2: DPO alignment
+└── Database_design/      # Backend schema for storing predictions & clinician review
 ```
 ---
 
