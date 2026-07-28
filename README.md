@@ -56,7 +56,7 @@ relational schema (3NF, 10 tables) as the backend for this system:
 ## 📁 Repository Structure
 
 ```
-├── Lora_fune_tune/       # Stage 1: LoRA supervised fine-tuning
+├── Lora_funetune/       # Stage 1: LoRA supervised fine-tuning
 ├── DPO_finetune/         # Stage 2: DPO alignment
 └── Database_design/      # Backend schema for storing predictions & clinician review
 ```
