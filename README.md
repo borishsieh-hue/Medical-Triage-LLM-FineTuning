@@ -34,8 +34,34 @@ We employed a two-stage fine-tuning approach:
     * Utilized an RLHF approach to align model outputs with human preferences for safety and accuracy.
     * Reduced hallucinations by teaching the model to discriminate between "superior" and "inferior" responses.
 
+### 3. Database Design for Deployment
 
+A fine-tuned model that outputs a disease and department prediction is
+only useful if that prediction can be tied back to a real patient, a real
+encounter, and a real clinician's judgment. We designed a normalized
+relational schema (3NF, 10 tables) as the backend for this system:
 
+* **Prediction Storage:** Every model output is stored alongside the
+  patient encounter that produced it, preserving the model's raw text
+  output for auditability.
+* **Human-in-the-Loop Review:** A separate `CLINICIAN_REVIEW` table
+  records whether a clinician confirmed or overrode the model's
+  suggestion — without ever overwriting the model's original prediction.
+* **Trust & Safety Analysis:** Because predictions and reviews are stored
+  independently, the schema supports queries like override rate by
+  confidence level — directly measuring how much clinicians trust the
+  model's output in practice.
+
+See [`03_database/`](./03_database) for the full schema, sample data, and
+example queries.
+
+## 📁 Repository Structure
+
+```
+├── 01_sft_lora/       # Stage 1: LoRA supervised fine-tuning
+├── 02_dpo/            # Stage 2: DPO alignment
+└── 03_database/       # Backend schema for storing predictions & clinician review
+```
 ---
 
 ## 📊 Performance Comparison
