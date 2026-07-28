@@ -52,8 +52,6 @@ relational schema (3NF, 10 tables) as the backend for this system:
   confidence level — directly measuring how much clinicians trust the
   model's output in practice.
 
-See [`03_database/`](./03_database) for the full schema, sample data, and
-example queries.
 
 ## 📁 Repository Structure
 
